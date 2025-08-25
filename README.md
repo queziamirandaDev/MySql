@@ -1,1 +1,6 @@
-**BANCOS DE DADOS**
+**BANCO DE DADOS**
+
+
+integração do codigo feito no visual code com o banco de dados MYsql
+
+usando modulo express , body-parses(configura a linguagem escrita para json para integrar no banco de dados)
