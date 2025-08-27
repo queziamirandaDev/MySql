@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Lista de Estudantes</title>
+</head>
+<body>
+    <h1>Lista de Estudantes</h1>
+    <table border="1" width="100%">
+
+        <tr>
+            <th>Codigo </th>
+            <th>Nome</th>
+            <th>E-mail</th>
+        </tr>
+
+        <% if (estudante.length > 0 ){ %>
+
+            <% for (var i = 0; i < estudante.length; i++){ %>
+
+                <tr>
+                    <td><%-estudante[i].id %></td>
+                    <td><%-estudante[i].nomecompleto %></td>
+                    <td><%-estudante[i].email %></td>
+                </tr>
+
+       <% } %>
+
+        <% } else { %>
+
+            <h1>Não temos estudantes no banco de dadoos</h1>
+               
+       <% } %>
+
+
+    </table>
+    
+</body>
+</html>
